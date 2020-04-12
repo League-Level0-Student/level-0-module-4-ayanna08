@@ -6,23 +6,31 @@ void setup() {
 }
 
 void draw() {
-  if(mouseX<261){
-    mouseX=261;
+  if(mousePressed){
+  println(mouseX+" "+mouseY);
+  }
+  if(mouseX>266){
+    mouseX=266;
   }
   if(mouseX<366){
     mouseX=366;
   }
-   if(mouseY<366){
+   if(mouseY>366){
     mouseY=366;
   }
-  if(mouseY<261){
-    mouseY=261;
+  if(mouseY<266){
+    mouseY=266;
   }
+
+ 
   fill(250,250,250);
-  ellipse(mouseX,mouseY,150,200);
+  ellipse(317,195,150,200);
   fill(0,0,0);
-  ellipse(mouseX,mouseY,100,150);
-if(mousePressed){
-  println(mouseX+""+mouseY);
-}
-}
+  ellipse(mouseX,mouseY,100,150); 
+ 
+  fill(250,250,250);
+  ellipse(476,205,150,200);
+  fill(0,0,0);
+  ellipse(mouseX,mouseY,100,150);  
+   
+} 
