@@ -7,12 +7,14 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class PiAloud {
+	public static void main(String[] args) {
 
 	// 1. Make a main method and make sure your program can run
 
 	// 2. Make a String variable to hold the value of Pi. You could use http://www.piday.org/million/ for the value.
-
+		String pi=
 	// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
+		pi.charAT(3);
 
 	// 4. Print ALL the digits of of Pi (hint: use a loop)
 
